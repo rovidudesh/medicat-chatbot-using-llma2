@@ -1,0 +1,6 @@
+ctransformers==0.2.5  #since we are using an quantized model in order to run the model in the cpu we need to use the ctransformers library
+sentencetransformers==2.2.2  #for embedding the text
+pinecone-client #for connecting to pinecone
+langchain==0.0.225 #for connecting to the model and pinecone
+flask #for creating the api
+
